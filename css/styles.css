@@ -134,6 +134,10 @@
 .skills {
   margin-top: 80px;
   padding-left: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
 }
 .skills-info {
   color: #757575;
@@ -158,6 +162,10 @@
   text-align: center;
   margin-top: 80px;
   background-color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
 }
 .our-work {
   top: 1061px;
@@ -165,12 +173,20 @@
   margin-top: 80px;
   padding-left: 150px;
   background-color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
 }
 /* Team info section  */
 .team {
   background-color: #f5f4fa;
   padding-top: 30px;
   padding-bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
 }
 .our-team {
   font-size: 36px;
@@ -242,6 +258,10 @@
   font-size: 14px;
   border: 1px;
   background-color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
 }
 /* Header menu  */
 .menu {
@@ -255,8 +275,13 @@
   text-align: left;
   color: var(--black);
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
 }
-.menu :hover {
+.menu :hover,
+.menu :focus {
   color: var(--light-blue);
 }
 /* Logo section */
@@ -283,6 +308,7 @@
   margin-left: 100px;
   color: #757575;
   text-decoration: none;
+  text-align: left;
 }
 /*  Buttons list section */
 .list-portofolio {
@@ -294,6 +320,10 @@
   padding-top: 60px;
   padding-left: 580px;
   padding-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
 }
 .buttons {
   text-align: center;
@@ -301,7 +331,8 @@
   cursor: pointer;
   font-weight: 600;
 }
-.list-portofolio :hover {
+.list-portofolio :hover,
+.list-portofolio :focus {
   background-color: var(--light-blue);
   color: var(--white);
 }
@@ -312,6 +343,10 @@
   padding-bottom: 100px;
   margin-left: 215px;
   margin-right: 225px;
+  border-bottom: 1px solid #eeeeee;
+
+  align-items: center;
+  justify-content: center;
 }
 .cards-instruments {
   border: 1px solid #eeeeee;
