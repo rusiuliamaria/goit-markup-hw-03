@@ -9,21 +9,35 @@
   background-color: var(--white);
   font-family: var(--font-primary);
   color: var(--black);
+  width: 1600px;
 }
+.container {
+  width: 1200px;
+}
+
 /* Header section  */
 .header {
-  width: 1600px;
+  display: flex;
+  flex-direction: row;
+
   height: 80px;
   font-family: var(--font-primary);
   font-weight: 500;
   font-size: 14px;
   border: 1px;
   background-color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 /* Header menu section  */
 .menu {
+  text-decoration: none;
   margin-top: 32px;
-  height: 16px;
+  height: auto;
   left: 653px;
   font-family: Roboto;
   font-size: 16px;
@@ -31,9 +45,14 @@
   line-height: 1;
   text-align: left;
   color: var(--black);
+  display: flex;
+  gap: 40px;
   text-decoration: none;
+  flex-direction: row;
 }
-.menu :hover {
+
+.menu :hover,
+.menu :focus {
   color: var(--light-blue);
 }
 /* Header logo section  */
@@ -46,6 +65,8 @@
   color: var(--light-blue);
   font-weight: 900;
   text-decoration: none;
+  margin-right: 76px;
+  align-items: center;
 }
 
 .studio {
@@ -57,9 +78,9 @@
 /* Header contacts adress section  */
 .contacts {
   margin-top: 32px;
-  margin-left: 100px;
   color: #757575;
   text-decoration: none;
+  margin-right: 0;
 }
 /* Head section  */
 .head {
@@ -67,6 +88,7 @@
   width: 1600px;
   height: 600px;
   color: var(--white);
+  margin: 0 auto;
 }
 /* Head page tittle section  */
 .page__tittle {
@@ -76,6 +98,7 @@
   text-align: center;
   margin-top: 0px;
   padding-top: 200px;
+  margin-bottom: 48px;
 }
 /* Head button section  */
 .buttons__request {
@@ -88,13 +111,19 @@
   font-weight: 700;
   line-height: 2;
   text-align: center;
+  display: block;
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 20px;
   padding-right: 20px;
   cursor: pointer;
 }
-.head :focus {
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.buttons__request:focus,
+.buttons__request:hover {
   background-color: var(--light-blue);
 }
 /* About section  */
@@ -167,7 +196,6 @@
 /* Footer section  */
 .footer {
   padding-top: 100px;
-  width: 1600px;
   height: 251px;
   top: 2097px;
   background-color: var(--light-black);
@@ -208,7 +236,7 @@
 
 /* Header section */
 .header {
-  width: 1600px;
+  width: 1200px;
   height: 80px;
   font-weight: 500;
   font-size: 14px;
@@ -310,7 +338,6 @@
 /* Footer section */
 .footer {
   padding-top: 100px;
-  width: 1600px;
   height: 251px;
   top: 2097px;
   background-color: #2f303a;
