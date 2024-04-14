@@ -9,14 +9,13 @@
   background-color: var(--white);
   font-family: var(--font-primary);
   color: var(--black);
-  width: 1200px;
+  width: 1600px;
 }
 
 /* Header section  */
 .header {
   display: flex;
   flex-direction: row;
-
   height: 80px;
   font-family: var(--font-primary);
   font-weight: 500;
@@ -209,8 +208,8 @@
 }
 /* Footer section  */
 .footer {
-  padding-top: 100px;
   height: auto;
+  margin-top: 0;
 
   background-color: var(--light-black);
   color: var(--white);
