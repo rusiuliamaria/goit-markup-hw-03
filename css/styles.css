@@ -1,0 +1,340 @@
+:root {
+  --white: #ffffff;
+  --light-blue: #2196f3;
+  --font-primary: "Roboto", sans-serif;
+  --light-black: #2f303a;
+  --black: #212121;
+}
+.body {
+  background-color: var(--white);
+  font-family: var(--font-primary);
+  color: var(--black);
+}
+/* Header section  */
+.header {
+  width: 1600px;
+  height: 80px;
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: 14px;
+  border: 1px;
+  background-color: var(--white);
+}
+/* Header menu section  */
+.menu {
+  margin-top: 32px;
+  height: 16px;
+  left: 653px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+  text-align: left;
+  color: var(--black);
+  text-decoration: none;
+}
+.menu :hover {
+  color: var(--light-blue);
+}
+/* Header logo section  */
+.logo {
+  font-size: 26px;
+  width: 145px;
+  height: 35px;
+  margin-top: 24px;
+  margin-left: 215px;
+  color: var(--light-blue);
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.studio {
+  font-family: "Raleway";
+  font-weight: 700;
+  line-height: 1.5;
+  color: var(--black);
+}
+/* Header contacts adress section  */
+.contacts {
+  margin-top: 32px;
+  margin-left: 100px;
+  color: #757575;
+  text-decoration: none;
+}
+/* Head section  */
+.head {
+  background-color: var(--light-black);
+  width: 1600px;
+  height: 600px;
+  color: var(--white);
+}
+/* Head page tittle section  */
+.page__tittle {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.4;
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 200px;
+}
+/* Head button section  */
+.buttons__request {
+  color: var(--white);
+  background-color: #00000026;
+  margin-left: 650px;
+  border-top: 430px;
+  border-radius: 4px;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 2;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+.head :focus {
+  background-color: var(--light-blue);
+}
+/* About section  */
+.about-section {
+  margin-bottom: 100px;
+}
+/* About skills und info section  */
+.skills {
+  margin-top: 80px;
+  padding-left: 150px;
+}
+.skills-info {
+  color: #757575;
+  font-weight: 400;
+}
+.skills-tittle {
+  width: 270px;
+  height: 16px;
+  top: 774px;
+  left: 215px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: left;
+  color: var(--black);
+}
+/* Work section  */
+.work {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 0.85;
+  text-align: center;
+  margin-top: 80px;
+  background-color: var(--white);
+}
+.our-work {
+  top: 1061px;
+  left: 215px;
+  margin-top: 80px;
+  padding-left: 150px;
+  background-color: var(--white);
+}
+/* Team info section  */
+.team {
+  background-color: #f5f4fa;
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+.our-team {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 0.85;
+  color: var(--black);
+  text-align: center;
+  margin-top: 60px;
+}
+/* Cards with team members section  */
+.team-members {
+  border-radius: 5px;
+  background-color: var(--white);
+  width: 270px;
+  height: 368px;
+  top: 1635px;
+  left: 215px;
+  margin-top: 60px;
+}
+.team-info {
+  text-align: center;
+}
+/* Footer section  */
+.footer {
+  padding-top: 100px;
+  width: 1600px;
+  height: 251px;
+  top: 2097px;
+  background-color: var(--light-black);
+  color: var(--white);
+}
+/* Footer contacts adress section  */
+.adress {
+  width: 231px;
+  height: 72px;
+  top: 2216px;
+  left: 215px;
+  padding-left: 110px;
+  list-style: none;
+  cursor: pointer;
+}
+/* Stilizarea substantivului "studio" in background darkness */
+.studio-footer {
+  color: var(--white);
+}
+.adress-line {
+  padding-top: 20px;
+  padding-left: 100px;
+  width: 207px;
+  height: 16px;
+  top: 2216px;
+  left: 215px;
+}
+.footer :focus {
+  color: var(--light-blue);
+}
+.body {
+  background-color: var(--white);
+  font-family: var(--font-primary);
+  color: var(--black);
+}
+
+/* Portofolio Page styling */
+
+/* Header section */
+.header {
+  width: 1600px;
+  height: 80px;
+  font-weight: 500;
+  font-size: 14px;
+  border: 1px;
+  background-color: var(--white);
+}
+/* Header menu  */
+.menu {
+  margin-top: 32px;
+  height: 16px;
+  left: 653px;
+  font-family: var(--font-primary);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+  text-align: left;
+  color: var(--black);
+  text-decoration: none;
+}
+.menu :hover {
+  color: var(--light-blue);
+}
+/* Logo section */
+.logo {
+  font-size: 26px;
+  width: 145px;
+  height: 35px;
+  margin-top: 24px;
+  margin-left: 215px;
+  color: var(--light-blue);
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.studio {
+  font-family: "Raleway";
+  font-weight: 700;
+  line-height: 1.5;
+  color: var(--black);
+}
+/* Header contacts adress section */
+.contacts {
+  margin-top: 32px;
+  margin-left: 100px;
+  color: #757575;
+  text-decoration: none;
+}
+/*  Buttons list section */
+.list-portofolio {
+  list-style: none;
+}
+.buttons-section {
+  height: 40px;
+  width: 520px;
+  padding-top: 60px;
+  padding-left: 580px;
+  padding-bottom: 50px;
+}
+.buttons {
+  text-align: center;
+  font-size: 18px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.list-portofolio :hover {
+  background-color: var(--light-blue);
+  color: var(--white);
+}
+/* Cards with fotos und infos  */
+.cards {
+  background-color: var(--white);
+  padding-top: 30px;
+  padding-bottom: 100px;
+  margin-left: 215px;
+  margin-right: 225px;
+}
+.cards-instruments {
+  border: 1px solid #eeeeee;
+  background-color: var(--white);
+  margin-top: 30px;
+}
+.cards-title {
+  margin-left: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  text-align: left;
+  color: var(--black);
+}
+.cards-info {
+  margin-left: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.8;
+  text-align: left;
+  color: #757575;
+}
+
+/* Footer section */
+.footer {
+  padding-top: 100px;
+  width: 1600px;
+  height: 251px;
+  top: 2097px;
+  background-color: #2f303a;
+  color: var(--white);
+}
+.adress {
+  width: 231px;
+  height: 72px;
+  top: 2216px;
+  left: 215px;
+  padding-left: 110px;
+  list-style: none;
+}
+/* Stilizarea cubantului "studio" din logo pe fundal dark */
+.studio-footer {
+  color: var(--white);
+}
+.adress-line {
+  padding-top: 20px;
+  padding-left: 100px;
+  width: 207px;
+  height: 16px;
+  left: 215px;
+}
+.adress-line :hover {
+  color: var(--light-blue);
+}
