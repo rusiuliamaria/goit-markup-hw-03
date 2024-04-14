@@ -11,9 +11,6 @@
   color: var(--black);
   width: 1600px;
 }
-.container {
-  width: 1200px;
-}
 
 /* Header section  */
 .header {
@@ -59,7 +56,7 @@
 .logo {
   font-size: 26px;
   width: 145px;
-  height: 35px;
+  height: auto;
   margin-top: 24px;
   margin-left: 215px;
   color: var(--light-blue);
@@ -145,7 +142,7 @@
 }
 .skills-tittle {
   width: 270px;
-  height: 16px;
+  height: auto;
   top: 774px;
   left: 215px;
   font-size: 14px;
@@ -183,11 +180,8 @@
   background-color: #f5f4fa;
   padding-top: 30px;
   padding-bottom: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 40px;
 }
+
 .our-team {
   font-size: 36px;
   font-weight: 700;
@@ -195,13 +189,17 @@
   color: var(--black);
   text-align: center;
   margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
 }
 /* Cards with team members section  */
 .team-members {
   border-radius: 5px;
   background-color: var(--white);
   width: 270px;
-  height: 368px;
+  height: auto;
   top: 1635px;
   left: 215px;
   margin-top: 60px;
@@ -212,15 +210,15 @@
 /* Footer section  */
 .footer {
   padding-top: 100px;
-  height: 251px;
-  top: 2097px;
+  height: auto;
+
   background-color: var(--light-black);
   color: var(--white);
 }
 /* Footer contacts adress section  */
 .adress {
   width: 231px;
-  height: 72px;
+  height: auto;
   top: 2216px;
   left: 215px;
   padding-left: 110px;
@@ -235,7 +233,7 @@
   padding-top: 20px;
   padding-left: 100px;
   width: 207px;
-  height: 16px;
+  height: auto;
   top: 2216px;
   left: 215px;
 }
@@ -253,7 +251,7 @@
 /* Header section */
 .header {
   width: 1200px;
-  height: 80px;
+  height: auto;
   font-weight: 500;
   font-size: 14px;
   border: 1px;
@@ -266,7 +264,7 @@
 /* Header menu  */
 .menu {
   margin-top: 32px;
-  height: 16px;
+  height: auto;
   left: 653px;
   font-family: var(--font-primary);
   font-size: 16px;
@@ -288,7 +286,7 @@
 .logo {
   font-size: 26px;
   width: 145px;
-  height: 35px;
+  height: auto;
   margin-top: 24px;
   margin-left: 215px;
   color: var(--light-blue);
